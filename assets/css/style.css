@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 80vh;
+    width: 80vw;
+    margin: 10vh auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+main div {
+    border-radius: 10px;
+}
+
+.red {
+    background-color: red;
+    grid-column: 1 / span 2;
+}
+
+.blue {
+    background-color: blue;
+    grid-column: 3 /span 2;
+}
+
+.green {
+    background-color: green;
+    grid-column: 1 /span 1;
+}
+
+.purple {
+    background-color: purple;
+    grid-column: 2 /span 3;
+}
+
+.yellow {
+    background-color: yellow;
+    grid-column: 1 / span 4;
+}
